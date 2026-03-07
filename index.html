@@ -67,6 +67,16 @@ ul {
     border: 1px solid #ddd;
     line-height: 1.6;
 }
+.correct {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.incorrect {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -119,16 +129,16 @@ No chart patterns. No indicators. Only forward prediction and its outcome.
 
 <table>
 <tr><th>Trade Date</th><th>Forecast</th><th>Outcome</th></tr>
-<tr><td>Feb 24</td><td>Up</td><td>✓</td></tr>
+<tr><td>Feb 24</td><td>Up</td><td class="correct">✓</td></tr>
 <tr><td>Feb 25</td><td>None</td><td> </td></tr>
 <tr><td>Feb 26</td><td>None</td><td> </td></tr>
-<tr><td>Feb 27</td><td>Down</td><td>✓</td></tr>
-<tr><td>Mar 2</td><td>Down</td><td>✓</td></tr>
+<tr><td>Feb 27</td><td>Down</td><td class="correct">✓</td></tr>
+<tr><td>Mar 2</td><td>Down</td><td class="correct">✓</td></tr>
 <tr><td>Mar 3</td><td>None</td><td> </td></tr>
 <tr><td>Mar 4</td><td>None</td><td> </td></tr>
-<tr><td>Mar 5</td><td>Down</td><td>✓</td></tr>
+<tr><td>Mar 5</td><td>Down</td><td class="correct">✓</td></tr>
 </table>
-
+    
 <!-- Safe imperative -->
 <p><strong>Note:</strong> Applying the signal as published has consistently produced correct directional outcomes in forward-tested periods. This is as straightforward as it gets under legal constraints.</p>
 
